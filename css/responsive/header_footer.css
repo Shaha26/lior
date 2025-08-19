@@ -77,8 +77,17 @@
     }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 408.9px) {
     header .container .menu a {
         margin: 0 8px;
     }
+   
+    header form div {
+        margin-bottom: 10px;
+    }
+
+    header > .container > img {
+        margin-left: 26px;
+    }
 }
+
