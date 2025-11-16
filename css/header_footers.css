@@ -1,0 +1,253 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container-floid {
+    width: 100%;
+}
+
+header > .container {
+    padding: 5px 0px 40px
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img {
+    width: 95px;
+}
+
+header .container .menu a {
+    text-decoration: none;
+    color: #4b4b4e;
+    font-size: 0.875em;
+    margin: 0 20px;
+}
+
+header .container .menu a:hover,
+header .container .menu a.active {
+    color: #ffcc00;
+    font-weight: 600;
+    padding-bottom: 7px;
+    border-bottom: 3px solid #ffcc00;  
+}
+
+header form div {
+    padding: 7px 21px;
+    border: 1px solid #ffcc00;
+    border-radius: 50px;
+}
+
+header form div input[type="text"] {
+    border: none;
+    outline: none;
+    width: 320px;
+}
+
+header form div input[type="text"]:-webkit-autofill,
+    header form div input[type="text"]:-webkit-autofill:hover,
+    header form div input[type="text"]:-webkit-autofill:focus,
+    header form div input[type="text"]:-webkit-autofill:active {
+        -webkit-box-shadow: 0 0 0 30px white inset !important;
+        -webkit-text-fill-color: #4b4b4e !important;
+    }
+
+header form div input[type="submit"] {
+    background: url(../image/search.png) no-repeat;
+    background-size: cover;
+    width: 25px;
+    height: 23px;
+    border: none;
+}
+
+header form div input[type="submit"]:hover {
+    cursor: pointer;
+    background: url(../image/search_active.png) no-repeat;
+    background-size: cover;
+    width: 25px;
+    height: 23px;
+}
+
+header .cart {
+    align-items: start;
+}
+
+header .cart img {
+    width: 20px;
+    margin-top: 4px;
+    margin-right: 7px;
+    cursor: pointer;
+}
+
+header .cart div p {
+    font-size: 0.900em;
+    align-items: start;
+    color: #888888;
+}
+
+header .cart div a {
+    font-size: 0.750em;
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+header .cart div a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    background-color: #4b4b4e;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+footer .container {
+    align-items: flex-start;
+}
+
+footer .left {
+    align-items: flex-start;
+}
+
+footer .left figure > img {
+        margin-left: 45px;
+}
+
+footer .left figure figcaption {
+    color: #f3f3f3;
+    font-size: 0.875em;
+    margin-top: 25px;
+    width: 200px;
+}
+
+footer .left nav {
+    margin-left: 100px;
+}
+
+footer .left nav a {
+    display: block;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 0.875em;
+    text-decoration: none;
+}
+
+footer .left nav a:hover,
+footer .left nav a.active {
+    color: #dfa52b;
+}
+
+footer .right form div {
+    justify-content: left;
+    width: 458px;
+    border-bottom: 1px solid #ffffff;
+}
+
+footer .right form input[type='text'] {
+    padding: 8px 0;
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    color: #ffffff;
+}
+
+footer .right form input[type='text']::placeholder {
+    color: #ffffff;
+    opacity: 1;
+}
+
+footer .right form input[type='text']:-webkit-autofill,
+    footer .right form input[type='text']:-webkit-autofill:hover,
+    footer .right form input[type='text']:-webkit-autofill:focus,
+    footer .right form input[type='text']:-webkit-autofill:active {
+        -webkit-box-shadow: 0 0 0 30px #4b4b4e inset !important;
+        -webkit-text-fill-color: #ffffff !important;
+    }
+
+footer .right form input[type='submit'] {
+    width: 23px;
+    height: 23px;
+    background: url('../image/search.png') no-repeat;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+
+footer .right form input[type='submit']:hover {
+    background: url('../image/search_active.png') no-repeat;
+    background-size: cover;
+}
+
+footer .right > div {
+    text-align: center;
+    font-size: 0.875em;
+    color: #ffffff;
+    margin-top: 33px;
+    margin-bottom: 15px;
+}
+
+footer .right .box {
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    margin: 16px 16px 0;
+}
+
+footer .right .insta {
+    background: url('../image/instagram.png') no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+footer .right .insta:hover {
+    background: url('../image/instagram_logo_active1.png') no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+footer .right .telegram {
+    background: url('../image/telegram_logo.png') no-repeat;
+    background-size:contain;
+}
+
+footer .right .telegram:hover {
+    background: url('../image/telegram_logo_hover.png');
+    background-size: cover;
+    cursor: pointer;
+}
+
+footer .right .vk {
+    background: url('../image/vk_logo.png') no-repeat;
+    background-size: cover;
+}
+
+footer .right .vk:hover {
+    background: url('../image/vk_logo_hover.png') no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+footer .copyrights {
+    text-align: center;
+    color: #f3f3f3;
+    font-size: 0.750em;
+    margin-top: 16px;
+}
